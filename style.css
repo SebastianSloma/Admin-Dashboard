@@ -164,9 +164,13 @@ aside .sidebar {
 	background: var(--color-white);
 	display: flex;
 	flex-direction: column;
-	height: 86vh;
+	height: 100vh;
 	position: relative;
 	top: 3rem;
+}
+
+aside .sidebar div{
+	width: 100vh;
 }
 
 aside h3 {
@@ -181,6 +185,7 @@ aside .sidebar a {
 	position: relative;
 	height: 3.7rem;
 	transition: all 300ms ease;
+
 }
 
 aside .sidebar a span {
